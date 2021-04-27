@@ -130,12 +130,39 @@
 }
 .card
 {
-    margin: 0 10px;
-    background-image: url("images/banner_bg.jpg");
+    border: none;
+    margin: 0 30px;
+}
+.card01
+{
+    background-image: url("images/room1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: none;
+    border-radius: 15px !important;
+}
+.card02
+{
+    background-image: url("images/room2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px !important;
+}
+.card03
+{
+    background-image: url("images/room3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px !important;
+}
+.card04
+{
+    background-image: url("images/room4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 15px !important;
 }
 .card-body
@@ -152,6 +179,6 @@
 }
 .card-price p
 {
-    color: #007bff;
+    color: #52C5FD;
     font-size: 16px;
 }
