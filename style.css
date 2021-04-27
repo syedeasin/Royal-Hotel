@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 .bg-light
 {
@@ -80,16 +81,10 @@
 }
 .container p
 {
-    padding: 0 240px;
+    /* padding: 0 240px; */
     line-height: 24px;
     font-weight: 200;
     font-size: 14px;
-}
-.container p
-{
-    padding: 0 240px;
-    line-height: 30px;
-    font-weight: 200;
 }
 .overlay
 {
@@ -118,4 +113,45 @@
     border-radius: 0px;
     padding: 12px 30px;
 
+}
+
+/* Home Accomodation Start  */
+.hotel-accomodation
+{
+    height: 70vh;
+    width: 100vw;  
+}
+
+.title-part h1, .title-part p
+{
+    color: #111;
+    overflow: hidden;
+    line-height: 50px;
+}
+.card
+{
+    margin: 0 10px;
+    background-image: url("images/banner_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 15px !important;
+}
+.card-body
+{
+    padding-top: 200px;
+    border-radius: 20px;
+}
+.card-price h4
+{
+    color: #333;
+    font-size: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.card-price p
+{
+    color: #007bff;
+    font-size: 16px;
 }
